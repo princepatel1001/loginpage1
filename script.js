@@ -101,7 +101,8 @@
                 localStorage.setItem('users', JSON.stringify(existingUsers));
                 
                 alert("Registration successful!");
-                return true;
+                window.location.href = "login.html"; // redirect manually
+                return false;
         }
 
 
